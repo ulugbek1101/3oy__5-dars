@@ -1,0 +1,939 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.wrapper .wrapper__image{
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    padding: 10px;
+    left: 80px;
+}
+.wrapper ul{
+    position: absolute;
+    display: flex;
+    left: 580px;
+    list-style: none;
+    gap: 50px;
+    padding: 20px;
+}
+.wrapper__image1{
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+    color:#B08EAD;
+}
+.wrapper ul li a{
+    font-family: serif;
+    text-decoration: none;
+    color: black;
+    color:#B08EAD;
+}
+/* @media (max-width:447px){
+    .wrapper{
+        width: 100%;
+    }
+}
+@media (min-width:447.1px) and (max-width:769){
+    .wrapper{
+        width: 100%;
+    }
+}
+@media (min-width:769.1px) and (max-width:990px){
+    .wrapper{
+        width: 100%;
+    }
+}
+@media (min-width:990.1px) and (max-width:1200px){
+    .wrapper{
+        width: 100%;
+    }
+}
+@media(min-width:1200px){
+    .wrapper{
+        width: 100% ;
+    }
+} */
+.main{
+    position: relative; 
+    border: 1px solid#C9ADC6;
+    height: 320px;
+    background: #C9ADC6;
+    top: 90px;
+}
+.main .main__image1{
+    position: absolute;
+    left: 180px;
+    top: 50px;
+    width: 600px;
+    height: 500px;
+}
+@font-face {
+    font-family: 'Cormonant';
+    src: url('./fonts/CormorantGaramond-Light.ttf');
+}
+.main .main__dived{
+    position: absolute;
+    top: 130px;
+    background-color:  #B08EAD;
+    width: 400px;
+    height: 350px;
+    left: 680px;
+}
+.main .main__dived-h1tag{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-family: 'Cormonant';
+    color: #ffff;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Light.ttf');
+}
+.main .main__dived-h5 {
+    position: absolute;
+    color: #ffff;
+    font-family: 'Roboto';
+    top: 50px;
+    left: 40px;
+    text-transform: uppercase;
+}
+.main .main__dived-h4tag{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-family: 'Roboto';
+}
+.main .main__dived1{
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    height: 280px;
+     background: #D6BBD3;
+}
+.main .main__dived hr{
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #ffff;
+    left: 40px;
+    top: 250px;
+}
+.main .main__dived2{
+    position: absolute;
+    top: 240px;
+    left: 900px;
+    width: 40px;
+    height: 40px;
+    background: #A78BA4;
+}
+.main .main__dived3{
+    position: absolute;
+    top: 240px;
+    left: 940px;
+    width: 40px;
+    height: 40px;
+    background: #B08EAD;
+}
+.inset{
+    position: relative;
+    top: 450px;
+}
+.inset .inset__h5{
+    position: absolute;
+    font-family: 'Roboto';
+    left: 520px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+.inset .inset__ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 35px;
+    width: 580px;
+    text-align: center;
+    left: 305px;
+    color: #5F4D5D;
+}
+.inset .inset__but{
+    position: absolute;
+    cursor: pointer;
+    background-color: #ffff;
+    border: 1px solid #B99BB6;
+    color:#B99BB6;
+    top: 110px;
+    left: 535px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.inset .inset__dived{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    left: 55px;
+}
+.inset .inset__dived1{
+    position: absolute;
+    left: 50px;
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 370px;
+    background-color: #A78BA4;
+}
+.inset .inset__dived1-image{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.inset .inset__dived1-h4tag{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    color: #fff;
+    font-family: "Cormonant";
+}
+.inset .inset__dived1-h5tag{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    color: #fff;
+    font-family: "Cormonant";
+}
+.inset .inset__dived2{
+    position: absolute;
+    left: 400px;
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 370px;
+    background-color: #A78BA4;
+}
+.inset .inset__dived2-image{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.inset .inset__dived2-h4tag{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    font-family: "Cormonant";
+    color: #fff;
+}
+.inset .inset__dived2-h5tag{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    color: #fff;
+    font-family: "Cormonant";
+}
+
+.inset .inset__dived3{
+    position: absolute;
+    left: 750px;
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 370px;
+    background-color: #A78BA4;
+}
+.inset .inset__dived3-image{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.inset .inset__dived3-h4tag{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    color: #fff;
+    font-family: "Cormonant";
+}
+.inset .inset__dived3-h5tag{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    color: #fff;
+    font-family: "Cormonant";
+}
+.home{
+    position: relative;
+    width: 100%;
+    top: 1100px;
+    height: 630px;
+    background: #CEB3CB;
+}
+.home .home__dived{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    width: 400px;
+    height: 380px;
+    background-color: #B08EAD;
+}
+.home .home__dived .home__dived-h4tag{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: #fff;
+}
+@font-face {
+    font-family: 'fonts';
+    src: url('./fonts/CormorantGaramond-Regular.ttf');
+}
+.home .home__dived .home__dived-h1tag{
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    left: 40px;
+    font-family: "fonts";
+    color: #fff;
+}
+.home .home__dived .home__dived-htag{
+    position: absolute;
+    top: 230px;
+    text-transform: uppercase;
+    left: 40px;
+    font-family: 'Roboto';
+    color: #fff;
+}
+.home .home__dived .home__dived1{
+    position: absolute;
+    top: 250px;
+    width: 90px;
+    height: 1px;
+    left: 40px;
+    background-color: #fff;
+}
+.home .home__image{
+    position: absolute;
+    left: 460px;
+    width: 450px;
+    height: 530px;
+    top: 50px;
+}
+.soufa{
+    position: relative;
+    top: 1200px;
+}
+.soufa .soufa1__image{
+    position: absolute;
+    left: 620px;
+    height: 360px;
+}
+.soufa .soufa1__p1tag{
+    position: absolute;
+    top: 110px;
+    font-family: 'Cormonant';
+    width: 400px;
+    color:#5F4D5D;
+    left: 150px;
+}
+.soufa .soufa1__ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 220px;
+    width: 400px;
+    left: 150px;
+    color:#5F4D5D;
+}
+.soufa .soufa1__h6tag{
+    position: absolute;
+    top: 80px;
+    color: #B99BB6;
+    text-transform: uppercase;
+    left: 150px;
+}
+.soufa .soufa2__image{
+    position: absolute;
+    width: 460px;
+    top: 450px;
+    left: 120px;
+    height: 420px;
+}
+.soufa .soufa2__h6tag{
+    position: absolute;
+    top: 510px;
+    color: #B99BB6;
+    text-transform: uppercase;
+    left: 680px;
+}
+.soufa .soufa2__p1tag{
+    position: absolute;
+    top: 540px;
+    font-family: 'Cormonant';
+    width: 400px;
+    color:#5F4D5D;
+    left: 680px;
+}
+.soufa .soufa2__ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 600px;
+    width: 400px;
+    left: 680px;
+    color:#5F4D5D;
+}
+.soufa2 .soufa2__p2tag{
+    position: absolute;
+    color:#5F4D5D;
+    top: 680px;
+    left: 680px;
+    font-family: 'Cormonant';
+}
+.soufa2 .soufa2__but{
+    position: absolute;
+    cursor: pointer;
+    top: 740px;
+    background-color: #fff;
+    border-radius: 25px;
+    border:1px solid #B99BB6;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: #B99BB6;
+    padding: 10px 20px;
+    left: 680px;
+}
+.soufa3 .soufa3__image{
+    position: absolute;
+    top: 960px;
+    left: 620px;
+    height: 380px;
+}
+.soufa3 .soufa3__p1tag{
+    position: absolute;
+    top: 1060px;
+    font-family: 'Cormonant';
+    width: 400px;
+    color:#5F4D5D;
+    left: 150px;
+}
+.soufa3 .soufa3__ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 1140px;
+    width: 400px;
+    left: 150px;
+    color:#5F4D5D;
+}
+.soufa3 .soufa3__h6tag{
+    position: absolute;
+    top: 1040px;
+    color: #B99BB6;
+    text-transform: uppercase;
+    left: 150px;
+}
+.soufa3 .soufa3__p2tag{
+    position: absolute;
+    color:#5F4D5D;
+    top: 1200px;
+    left: 150px;
+    font-family: 'Cormonant';
+}
+.hotel{
+    position: relative; 
+    border: 1px solid#C9ADC6;
+    height: 600px;
+    background: #C9ADC6;
+    top: 2640px;
+}
+.hotel .hotel__image1{
+    position: absolute;
+    left: 210px;
+    top: 50px;
+    width: 520px;
+    height: 500px;
+}
+.hotel .hotel__dived{
+    position: absolute;
+    top: 130px;
+    background-color:  #B08EAD;
+    width: 400px;
+    height: 350px;
+    left: 680px;
+}
+.hotel .hotel__dived-h1tag{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-family: 'Cormonant';
+    color: #ffff;
+}
+.hotel .hotel__dived-h5 {
+    position: absolute;
+    color: #ffff;
+    font-family: 'Roboto';
+    top: 50px;
+    left: 40px;
+    text-transform: uppercase;
+}
+.hotel .hotel__dived-h4tag{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-family: 'Roboto';
+}
+.hotel .hotel__dived1{
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    height: 280px;
+     background: #D6BBD3;
+}
+.comp{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    top: 2740px;
+    gap: 20px;
+    object-fit: cover;
+}
+.comp .comp1__image{
+    position: absolute;
+    left: 70px;
+    width: 350px;
+}
+.comp .comp1 .comp1__h4tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 360px;
+    left: 180px;
+}
+.comp .comp1 .comp1__ptag{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #5F4D5D;
+    top: 390px;
+    left: 195px;
+}
+.comp .comp2__image{
+    position: absolute;
+    left: 440px;
+    width: 350px;
+}
+.comp .comp2 .comp2__h4tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 360px;
+    left: 560px;
+}
+.comp .comp2 .comp2__ptag{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #5F4D5D;
+    top: 390px;
+    left: 575px;
+}
+.comp .comp3__image{
+    position: absolute;
+    left: 810px;
+    width: 350px;
+}
+.comp .comp3 .comp3__h4tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 360px;
+    left: 910px;
+}
+.comp .comp3 .comp3__ptag{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #5F4D5D;
+    top: 390px;
+    left: 945px;
+}
+.comp .comp4__image{
+    position: absolute;
+    top: 450px;
+    left: 70px;
+    width: 350px;
+}
+.comp .comp4 .comp4__h4tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 810px;
+    left: 190px;
+}
+.comp .comp4 .comp4__ptag{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #5F4D5D;
+    top: 840px;
+    left: 205px;
+}
+.comp .comp5__image{
+    position: absolute;
+    top: 450px;
+    left: 440px;
+    width: 350px;
+}
+.comp .comp5 .comp5__h4tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 810px;
+    left: 560px;
+}
+.comp .comp5 .comp5__ptag{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #5F4D5D;
+    top: 840px;
+    left: 575px;
+}
+.comp .comp6__image{
+    position: absolute;
+    top: 450px;
+    left: 810px;
+    width: 350px;
+}
+.comp .comp6 .comp6__h4tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 810px;
+    left: 930px;
+}
+.comp .comp6 .comp6__ptag{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #5F4D5D;
+    top: 840px;
+    left: 945px;
+}
+.endi{
+    position: relative;
+    height: 450px;
+    border: 1px solid #CEB3CB;
+    background: #CEB3CB;
+    top: 3700px;
+    display: flex;
+}
+.endi .endi__gmail{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 200px;
+}
+.endi .endi__gmail .endi__gmail-h6tag{
+    position: absolute;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: #fff;
+}
+.endi .endi__gmail .endi__gmail-ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #fff;
+    top: 15px;
+}
+.endi .endi__gmail .endi__gmail-htag{
+    position: absolute;
+    font-family: 'Roboto';
+    color: #fff;
+    text-transform: uppercase;
+    top: 55px;
+}
+.endi .endi__gmail .endi__gmail-p1tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #fff;
+    text-transform: uppercase;
+    top: 70px;
+}
+.endi .endi__gmail .endi__gmail-tag{
+    position: absolute;
+    font-family: 'Roboto';
+    color: #fff;
+    text-transform: uppercase;
+    top: 110px;
+}
+.endi .endi__gmail .endi__gmail-p2tag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #fff;
+    top: 130px;
+}
+.endi .endi__gmail1{
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}
+.endi .endi__gmail1 .endi__gmail1-h6tag{
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+}
+.endi .endi__gmail1 .endi__gmail1-ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 20px;
+    width: 550px;
+    color: #fff;
+}
+.endi .endi__gmail1 .endi__gmail1-input1{
+    position: absolute;
+    padding: 5px;
+    font-family: 'Cormonant';
+    width: 250px;
+    height: 30px;
+    top: 65px;
+    border: 1px solid #fff;
+    background-color:  #CEB3CB;
+}
+.endi .endi__gmail1 .endi__gmail1-input2{
+    position: absolute;
+    padding: 5px;
+    font-family: 'Cormonant';
+    width: 250px;
+    height: 30px;
+    background-color:  #CEB3CB;
+    border: 1px solid #fff;
+    top: 65px;
+    left: 280px;
+}
+.endi .endi__gmail1 .endi__gmail1-input3{
+    position: absolute;
+    padding: 5px;
+    font-family: 'Cormonant';
+    width: 250px;
+    height: 30px;
+    background-color:  #CEB3CB;
+    border: 1px solid #fff;
+    top: 120px;
+}
+.endi .endi__gmail1 .endi__gmail1-input4{
+    position: absolute;
+    font-family: 'Cormonant';
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+    background-color:  #CEB3CB;
+    border: 1px solid #fff;
+    top: 120px;
+    left: 280px;
+}
+.endi .endi__gmail1 .endi__gmail1-input5{
+    position: absolute;
+    font-family: 'Cormonant';
+    padding: 5px;
+    top: 175px;
+    background-color:  #CEB3CB;
+    border: 1px solid #fff;
+    width: 530px;
+    height: 80px;
+}
+.endi .endi__gmail1 .endi__gmail1-input6{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 280px;
+    padding: 10px;
+    width: 210px;
+    text-align: center;
+    height: 30px;
+    background-color:  #CEB3CB;
+    border: 1px solid #fff;
+}
+.news{
+    position: relative;
+    top: 3800px;
+}
+.news .news__h5tag{
+    position: absolute;
+    color: #A78BA4;
+    font-family: 'Roboto';
+    left: 550px;
+}
+.news .news__ptag{
+    position: absolute;
+    font-family: 'Cormonant';
+    color: #5F4D5D;
+    top: 20px;
+    left: 500px;
+}
+.news .news__input1{
+    position: absolute;
+    font-family: 'Cormonant';
+    top: 60px;
+    font-size: 15px;
+    height: 30px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid grey;
+    left: 350px;
+    border-radius: 3px 0px 0px 3px;
+}
+.news .news__input2{
+    position: absolute;
+    font-family: 'Cormonant';
+    border: 1px solid grey;
+    top: 60px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    left: 520px;
+    border-radius: 3px 0px 0px 3px;
+}
+.news .news__but{
+    position: absolute;
+    font-family: 'Cormonant';
+    border: 1px solid grey;
+    top: 60px;
+    font-size: 15px;
+    color: #fff;
+    height: 52px;
+    padding: 10px;
+    width: 150px;
+    left: 690px; 
+    background: #CEB3CB;
+    border-radius: 0px 3px 3px 0px;
+}
+.footer{
+    position: relative;
+    top: 4000px;
+}
+.footer .footer__dived{
+    /* position: absolute; */
+    height: 200px;
+    background-color: #D6BBD3;
+    border: 1px solid ;
+    align-items: center;
+    border: none;
+}
+.footer .footer__dived .footer__dived-icons1{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+.footer .footer__dived .footer__dived-icons1 .footer__dived-icons1-h5tag{
+    position: absolute;
+    color: #fff;
+    font-family: 'Cormonant';
+}
+.footer .footer__dived .footer__dived-icons1 .footer__dived-icons1-ptag{
+    color: #fff;
+    top: 120px;
+    left: -30px;
+    position: absolute;
+    width: 180px;
+    font-family: 'Cormonant';
+}
+.footer .footer__dived .footer__dived-icons2{
+    position: absolute;
+    top: 40px;
+    left: 550px;
+}
+.footer .footer__dived .footer__dived-icons2 .footer__dived-icons2-h5tag{
+    position: absolute;
+    color: #fff;
+    font-family: 'Cormonant';
+}
+.footer .footer__dived .footer__dived-icons2 .footer__dived-icons2-ptag{
+    color: #fff;
+    top: 120px;
+    left: -30px;
+    position: absolute;
+    width: 180px;
+    font-family: 'Cormonant';
+}
+.footer .footer__dived .footer__dived-icons3{
+    position: absolute;
+    top: 40px;
+    left: 930px;
+}
+.footer .footer__dived .footer__dived-icons3 .footer__dived-icons3-h5tag{
+    position: absolute;
+    color: #fff;
+    font-family: 'Cormonant';
+    width: 150px;
+}
+.footer .footer__dived .footer__dived-icons3 .footer__dived-icons3-ptag{
+    color: #fff;
+    top: 120px;
+    left: -30px;
+    position: absolute;
+    width: 200px;
+    font-family: 'Cormonant';
+}
+.footer .footer__dived2{
+        /* position: absolute; */
+        height: 160px;
+        background: #C9ADC6;
+        border: 1px solid ;
+        align-items: center;
+        border: none;
+}
+.footer__dived2 .footer__dived2-dev{
+    position: absolute;
+    display: flex;
+}
+.footer .footer__dived2 .footer__dived2-dev .footer__dived2-image1{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    width: 100px;
+    height: 70px;
+}
+.footer .footer__dived2 .footer__dived2-dev ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    top: 60px;
+    left: 250px;
+} 
+.footer .footer__dived2 .footer__dived2-dev ul li a{
+    position: absolute;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 100px;
+    gap: 100px;
+    font-family: 'Cormonant';
+}
+.footer .footer__dived2-ptag {
+    color: #fff;
+    position: absolute;
+    left: 80px;
+    top: 340px;
+    width: 510px;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+.footer .footer__dived2-image2 {
+    position: absolute;
+    left: 950px;
+    top: 250px;
+}
+.footer .footer__dived2-image3 {
+    position: absolute;
+    left: 1100px;
+    top: 330px;
+}
